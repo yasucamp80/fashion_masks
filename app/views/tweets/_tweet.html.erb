@@ -1,4 +1,5 @@
 <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+  <p class="first-message" data-tweet-id=<%= tweet.id %>>
   <div class="more">
     <span><%= image_tag 'arrow_top.png' %></span>
     <ul class="more_list">
@@ -20,5 +21,10 @@
     <a href="/users/<%= tweet.user.id %>">
       <span>post by</span><%= tweet.user.nickname %>
     </a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?hashtags=FORMS,fashion,facemask">
+          Tweet</a>
   </span>
 </div>
+<div class="content_sns">

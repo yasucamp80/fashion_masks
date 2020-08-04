@@ -6,6 +6,9 @@ Rails.application.routes.draw do
     collection do
       get 'search'
     end
+    get 'api_messages_path' => 'api/messages#index'
+  # resources :api_messages_path do
+    # resources :messages, only: :index, defaults: { format: 'json' }
+  # end
   end
-  resources :users, only: :show
 end

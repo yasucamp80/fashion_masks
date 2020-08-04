@@ -938,9 +938,9 @@ div.contents.row div.content_post .more ul.more_list li a:hover {
 
 div.contents.row div.content_post p {
   position: absolute;
-  left: 30px;
+  left: 40px;
   right: 100px;
-  bottom: 30px;
+  top: 410px;
   margin: 0;
   font-size: 17px;
   z-index: 2;
@@ -958,7 +958,7 @@ div.contents.row div.content_post span.name {
 
 div.contents.row div.content_post span.name a {
   display: block;
-  color: #aaa;
+  /* color: #aaa; */
 }
 
 div.contents.row div.content_post span.name a:hover {

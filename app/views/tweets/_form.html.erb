@@ -1,5 +1,5 @@
 <%= form.text_field :image, placeholder: "Image Url" %>
-<%= form.label "Upload photos" %><br> 
+<%= form.label "Upload photos" %>
 <%= form.file_field :image %>
-<%= form.text_area :text, placeholder: "text", rows: "10" %>
+<%= form.text_area :text, placeholder: 'mask description & model & fashion brand & others..'.html_safe, rows: "10" %>
 <%= form.submit "SEND" %>
